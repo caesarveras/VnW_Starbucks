@@ -14,7 +14,7 @@ const Novidades = () => {
       </div>
       <div className="novidades-image">
         <img
-          src="https://github.com/caesarveras/meustrabalhos/blob/main/starbucks/starbucks/public/images/cafezinho.svg" // CAFEZINHO
+          src="https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/dd3c3591517ee9cf39b700aafce3b5ed25d327ef/starbucks/public/images/cafezinho.svg" // CAFEZINHO
           alt="TORRA DE CAFE"
         />
       </div>

@@ -18,7 +18,9 @@ const Navbar = styled.header`
 
 const Header = () => (
   <Navbar>
-    <h1>Starbucks</h1>
+    <h1>
+    <img
+     src='https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/dd3c3591517ee9cf39b700aafce3b5ed25d327ef/starbucks/public/images/logo%202.svg' alt='StarBucks' /></h1>
     <nav>
       <Link to="/">Home</Link>
       <Link to="/novidades">Novidades</Link>

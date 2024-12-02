@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: 'Arial', sans-serif;
-  background-color: #1E3932;
+  background-color: #1e3932;
   color: #333;
   padding: 20px;
 `;
