@@ -1,0 +1,58 @@
+/* Estilos gerais da página de Novidades */
+.novidades-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #173f35; /* Verde escuro */
+    color: #ffffff;
+    padding: 50px;
+    min-height: 100vh;
+  }
+  
+  .novidades-content {
+    max-width: 50%;
+  }
+  
+  .novidades-content h2 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .novidades-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .novidades-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .novidades-button {
+    background-color: #00754a; /* Verde Starbucks */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .novidades-button:hover {
+    background-color: #005938;
+  }
+  
+  .novidades-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .body{
+    font-family: 'Poppins', sans-serif;
+}
