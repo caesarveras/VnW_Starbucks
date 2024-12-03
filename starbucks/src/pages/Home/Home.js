@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Header, MainContent, DrinkButton, DrinkImage, InfoSection } from './HomeStyles';
-import { Link } from 'react-router-dom';
+import { Container, MainContent, DrinkButton, DrinkImage, InfoSection } from './HomeStyles';
 
 const Home = () => {
   const [selectedFlavor, setSelectedFlavor] = useState('default');
@@ -11,15 +10,15 @@ const Home = () => {
       color: '#037143',
     },
     caramel: {
-      image: '/images/caramel-drink.png',
-      color: '#f5d3a6',
+      image: 'https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja2x%201.png?raw=true',
+      color: '#037143',
     },
     redVelvet: {
-      image: '/images/red-velvet-drink.png',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/vermelho2x%201.svg',
       color: '#97090C',
     },
     manga: {
-      image: '/images/lemon-drink.png',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/amarelo2x%201.svg',
       color: '#DECD13',
     },
   };
@@ -32,33 +31,51 @@ const Home = () => {
     <Container background={drinkData[selectedFlavor].color}>
       <MainContent>
         <InfoSection>
-          <h1><span style={{ fontWeight: 'normal' }}>Mais que Café</span></h1>
-          <h2>Isso é <b> <span style={{ color: '#037143', fontWeight: 'bold' }}>Starbucks</span></b></h2>
+          <h1>Mais que Café</h1>
+          <h2>
+            Isso é{' '}
+            <span style={{ color: '#037143', fontWeight: 'bold' }}>Starbucks</span>
+          </h2>
           <p>
-          A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte Macchiato e o Espresso. Além disso, a Starbucks oferece bebidas quentes e frias, doces diferenciados e sanduíches.
+            A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns
+            dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte
+            Macchiato e o Espresso. Além disso, a Starbucks oferece bebidas quentes
+            e frias, doces diferenciados e sanduíches.
           </p>
-          <button aria-label="Learn more about Starbucks">Saiba Mais</button>
+          <button aria-label="Saiba mais sobre o Starbucks">Saiba Mais</button>
         </InfoSection>
-        <DrinkImage src={drinkData[selectedFlavor].image} alt={`Imagem do drink ${selectedFlavor}`} />
+        <DrinkImage
+          src={drinkData[selectedFlavor].image}
+          alt={`Imagem do drink ${selectedFlavor}`}
+        />
       </MainContent>
       <div>
         <DrinkButton
           onClick={() => handleFlavorChange('caramel')}
-          style={{ backgroundColor: selectedFlavor === 'caramel' ? '#d1a15d' : 'transparent' }}
+          isSelected={selectedFlavor === 'caramel'}
         >
-          Caramelo
+          <img
+            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja%203.png?raw=true"
+            alt="Caramelo"
+          />
         </DrinkButton>
         <DrinkButton
           onClick={() => handleFlavorChange('redVelvet')}
-          style={{ backgroundColor: selectedFlavor === 'redVelvet' ? '#f29d9d' : 'transparent' }}
+          isSelected={selectedFlavor === 'redVelvet'}
         >
-          Red Velvet
+          <img
+            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/vermelho%201.png?raw=true"
+            alt="Red Velvet"
+          />
         </DrinkButton>
         <DrinkButton
-          onClick={() => handleFlavorChange('lemon')}
-          style={{ backgroundColor: selectedFlavor === 'manga' ? '#f6e2a1' : 'transparent' }}
+          onClick={() => handleFlavorChange('manga')}
+          isSelected={selectedFlavor === 'manga'}
         >
-          Manga
+          <img
+            src="https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/amarelo%201.svg"
+            alt="Manga"
+          />
         </DrinkButton>
       </div>
     </Container>
