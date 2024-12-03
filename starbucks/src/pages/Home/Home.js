@@ -57,6 +57,7 @@ const Home = () => {
           <img
             src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja%203.png?raw=true"
             alt="Caramelo"
+            background='transparent'
           />
         </DrinkButton>
         <DrinkButton

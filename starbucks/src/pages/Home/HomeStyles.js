@@ -82,12 +82,12 @@ export const InfoSection = styled.section`
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
-    //border-radius: 50px;
-    //background-color: #006241;
+    border-radius: 50px;
+    background-color: #006241;
     cursor: pointer;
-   // transition: background-color 0.3s;
-    //&:hover {
-    //    background: #004d31;
+    transition: background-color 0.3s;
+    &:hover {
+        background: #004d31;
     }
   }
 `;
@@ -101,12 +101,12 @@ export const DrinkImage = styled.img`
 
 
 export const DrinkButton = styled.button`
-  //background-color: transparent;
+  background-color: transparent;
   //color: #333;
   //padding: 10px 20px;
-  //border: 2px solid #333;
+  border: transparent;
   margin: 5px;
-  font-size: 1.1rem;
+  //font-size: 1.1rem;
   cursor: pointer;
   //transition: background-color 0.3s, color 0.3s;
   &:hover {
