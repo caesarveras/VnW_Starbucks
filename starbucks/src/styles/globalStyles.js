@@ -24,6 +24,10 @@ export const Header = styled.header`
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
   }
+   img {
+    width: auto; /* Adjust the width as needed */
+    height: 10px; /* Maintain aspect ratio */
+  }
 
   nav a {
     margin-left: 15px;

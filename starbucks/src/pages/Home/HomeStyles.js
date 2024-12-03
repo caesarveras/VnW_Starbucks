@@ -54,15 +54,17 @@ export const InfoSection = styled.section`
     margin-bottom: 20px;
   }
   button {
-    background-color: #333;
+    font-family: 'Poppins', sans-serif;
     color: white;
-    padding: 10px 20px;
     border: none;
+    padding: 10px 20px;
     font-size: 1rem;
+    border-radius: 50px;
+    background-color: #006241;
     cursor: pointer;
     transition: background-color 0.3s;
     &:hover {
-      background-color: #555;
+        background: #004d31;
     }
   }
 `;

@@ -9,6 +9,11 @@ const Navbar = styled.header`
   padding: 10px 20px;
   background-color: #fff;
 
+  img {
+    width: 80px; 
+    height: auto;
+  }
+
   nav a {
     margin: 0 10px;
     text-decoration: none;
@@ -18,9 +23,10 @@ const Navbar = styled.header`
 
 const Header = () => (
   <Navbar>
-    <h1>
     <img
-     src='https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/dd3c3591517ee9cf39b700aafce3b5ed25d327ef/starbucks/public/images/logo%202.svg' alt='StarBucks' /></h1>
+      src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/starbucks_logo.png?raw=true"
+      alt="StarBucks Logo"
+    />
     <nav>
       <Link to="/">Home</Link>
       <Link to="/novidades">Novidades</Link>
