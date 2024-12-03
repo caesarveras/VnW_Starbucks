@@ -6,19 +6,19 @@ const Home = () => {
 
   const drinkData = {
     default: {
-      image: 'https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja2x%201.png?raw=true',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/12e99e848fce6538311b0f7f1729045671ff3663/public/images/laranja2x%201.svg',
       color: '#037143',
     },
     caramel: {
-      image: 'https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja2x%201.png?raw=true',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/12e99e848fce6538311b0f7f1729045671ff3663/public/images/laranja2x%201.svg',
       color: '#037143',
     },
     redVelvet: {
-      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/vermelho2x%201.svg',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/12e99e848fce6538311b0f7f1729045671ff3663/public/images/vermelho2x%201.svg',
       color: '#97090C',
     },
     manga: {
-      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/amarelo2x%201.svg',
+      image: 'https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/12e99e848fce6538311b0f7f1729045671ff3663/public/images/amarelo2x%201.svg',
       color: '#DECD13',
     },
   };
@@ -55,7 +55,7 @@ const Home = () => {
           isSelected={selectedFlavor === 'caramel'}
         >
           <img
-            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/laranja%203.png?raw=true"
+            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/public/images/laranja%203.png?raw=true"
             alt="Caramelo"
             background='transparent'
           />
@@ -65,7 +65,7 @@ const Home = () => {
           isSelected={selectedFlavor === 'redVelvet'}
         >
           <img
-            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/vermelho%201.png?raw=true"
+            src="https://github.com/caesarveras/VnW_Starbucks/blob/main/public/images/vermelho%201.png?raw=true"
             alt="Red Velvet"
           />
         </DrinkButton>
@@ -74,7 +74,7 @@ const Home = () => {
           isSelected={selectedFlavor === 'manga'}
         >
           <img
-            src="https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/614f44e31dc8dfa4661a6721d61fb0c324e10997/starbucks/public/images/amarelo%201.svg"
+            src="https://raw.githubusercontent.com/caesarveras/VnW_Starbucks/12e99e848fce6538311b0f7f1729045671ff3663/public/images/amarelo%201.svg"
             alt="Manga"
           />
         </DrinkButton>

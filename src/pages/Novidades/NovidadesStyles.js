@@ -11,12 +11,15 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
+  font-weight: normal;
   align-items: center;
   padding: 20px;
   background-color: #333;
   color: #fff;
+  
   h1 {
     font-size: 2.5rem;
+    font-weight: normal;
   }
   nav {
     a {
@@ -24,6 +27,7 @@ export const Header = styled.header`
       text-decoration: none;
       margin: 0 10px;
       font-size: 1.2rem;
+      font-weight: normal;
       &:hover {
         text-decoration: underline;
       }

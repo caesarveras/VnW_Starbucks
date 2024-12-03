@@ -24,7 +24,7 @@ const Navbar = styled.header`
 const Header = () => (
   <Navbar>
     <img
-      src="https://github.com/caesarveras/VnW_Starbucks/blob/main/starbucks/public/images/starbucks_logo.png?raw=true"
+      src="https://github.com/caesarveras/VnW_Starbucks/blob/main/public/images/starbucks_logo.png?raw=true"
       alt="StarBucks Logo"
     />
     <nav>
